@@ -17,7 +17,9 @@ The user flow is pretty simple, enter the data in the form, preview if the enter
 
 ![marriage certificate site](/images/posts/entiresitemarriagecertificate.png "marriage certificate site")
 
-This can be tried on the following site: [marriage certificate](https://marriagecertificate-perne.netlify.app)
+This can be tried on the following site: [marriage certificate](https://marriagecertificate-perne.netlify.app).
+
+This is the link to the github repo: [marriage certificate repo](https://github.com/RakshithNM/marriagecertificate/tree/master)
 
 With this approach everything works just as fine but the only problem is backup, there is no way to keep track of the marriages and a google form was setup to address this. With google form, the data entered can be collected in a google sheet, so the problem of backup is solved.
 
@@ -27,7 +29,9 @@ With the form and sheet in place, the temple authorities that generate the certi
 
 This can be tried on the following url: [marriage certificate dashboard](https://pernekshethracertificates.netlify.app/list/index.html)
 
-The purpose of building the dashboard was to automatically trigger a generate a PDF and then print it. To solve this issue, i built an express app that runs puppeteer, fills the form on already built on [marriage certificate](https://marriagecertificate-perne.netlify.app) and then returns the generate PDF and opens in the browser PDF viewer.
+This is the link to the github repo: [marriage certificate dashboard repo](https://github.com/RakshithNM/sheets-api-javascript-client)
+
+The purpose of building the dashboard was to automatically trigger a generate a PDF and then print it. To solve this issue, i built an express app that runs puppeteer, fills the form on already built on [marriage certificate](https://marriagecertificate-perne.netlify.app) and then returns the generate PDF and opens in the browser PDF viewer. This is the link to the puppeteer pdf generation express app repo [pupp eteer pdf generation](https://github.com/RakshithNM/puppeteer-pdf-generation)
 
 A `print` button was added to every row in the dashboard with the data from the sheets and upon clicking it, the data of the row in the sheet is sent to the express app where it runs puppeteer fills the form and returns the PDF to the client. So now there is no manually intervention required from the temple authorities in entering the input. In case there are any correction requirred to the recieved data, the google sheet that collects data can be edited.
 
