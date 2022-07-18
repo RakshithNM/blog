@@ -1,5 +1,5 @@
 ---
-title: One page landing page stack
+title: Not using Javascript to build a site in 2022
 date: 2022-07-18
 published: true
 tags: ['frontend', 'tech stack']
