@@ -36,14 +36,15 @@ We might have to run several commands get our [website](website) running, make c
 # Having to run many commands to get our project running each time is highly inefficient.
 1. I create a tmuxinator project, set it up and then add a alias in `~/.zshrc` like `alias project=tmuxinator start project` [project ideally should be the name of the project :)]
 2. All the different panes and the commands to run in those panes will be set up in the `~/.tmuxinator/project.yml` [project ideally should be the name of the project :)]
+3. With this setup starting any project is just running the project with its name `project`
 
 # Editor workflow
 1. I use vim not VSCode(we should use [VSCodium](https://vscodium.com/) instead) atm.
 2. Programming majorly involves editing code rather than adding code, so it becomes extremely crucial to be able to switch between files and grep the code as efficiently and quickly as possible.
-3. I use fzf to open popup within vim to search for files. The fzf popup is triggered by `<Ctrl-p>` vim key-binding. Once [we](we) have the search highlighted in the popup, pressing enter takes us to the file.
+3. I use fzf to open popup within vim to search for files. The fzf popup is triggered by `<Ctrl-p>` vim key-binding. Once we have the search highlighted in the popup, pressing enter takes us to the file.
 4. To grep the codebase, ripgrep is my tool. Similar to fzf, ripgrep can be triggered by `<Ctrl-f>` vim key-binding.
 
-Literal code editing [workflow](workflow) optimizations are left out of this blog as that will need to be a separate post.
+Literal code editing workflow optimizations are left out of this blog as that will need to be a separate post.
 
 # Git
 1. Using a separate terminal window for git is fine, but I wanted to avoid that(less windows the better).
@@ -54,10 +55,10 @@ Literal code editing [workflow](workflow) optimizations are left out of this blo
 6. Lazygit is pretty cool, after pushing the code on branch we can create a PR by pressing `o`(launches a browser tab with the PR creation screen).
 
 # Debugging
-1. Log debugging is the frequent thing I do, even if i don't admit as much.
-2. I buit a vim plugin to make myself more efficient log debugging javascript and typescript project.
+1. Log debugging is the frequent thing I do, even if i don't like to admit as much.
+2. I buit a vim plugin to make myself more efficient log debugging javascript and typescript files.
 3. Learn more on the my github [here](https://github.com/RakshithNM/logdebug.vim).
 
-My Development workflow is optimized for working on a project for a long term. There is a little overhead with setting these tools up, but once we get into the rabbit hole of customising our development workflow, it is going to bring joy. It also makes us more efficient as the days pass.
+> My development workflow is optimized for working on a project for a long term. There is a little overhead with setting these tools up, but once we get into the rabbit hole of customising our development workflow, it is going to bring joy. It also makes us more efficient as the days pass.
 
 
