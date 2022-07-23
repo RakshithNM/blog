@@ -7,7 +7,7 @@ canonical_url: false
 description: "Rundown of my developement workflow, how i launch my development environment, edit code and commit it"
 ---
 
-This blog post is a rundown of my development workflow. The tools, customisations and integrations I have setup to arrive at a workflow that helps me in daily in going about my work.
+This blog post is a rundown of my development workflow. The tools, customisations and integrations I have setup to arrive at a workflow that helps me daily in going about my work.
 
 # TOOLS and INTEGRATIONS within them that power my setup
 * [WARP.DEV](https://www.warp.dev/) - Teminal
@@ -19,26 +19,26 @@ This blog post is a rundown of my development workflow. The tools, customisation
   * [Lazygit](https://github. com/jesseduffield/lazygit) - [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for git
   * [LogDebug](https://github.com/RakshithNM/logdebug.vim) - Debugging helper vim plugin
 
-We might have to run several commands get your website running, make changes and commit code. For example
+We might have to run several commands get our [website](website) running, make changes and commit code. For example
 
 * Run the frontend server
 * Run the backend server
 * The build command
 * The SSL proxy
 * The database server
-* Git commands - if you use the terminal
+* Git commands - if we [use](use) the terminal
 
-# The brute force approach is to open N terminals windows for N commands. But jumping between those windows is going to be messy as you go about doing your job.
+# The brute force approach is to open N terminals windows for N commands. But jumping between those windows is going to be messy as we go about doing our [job](job).
 1. I personal use panes in tmux to run multiple commands. Switching between panes is much better than switching between windows.
-2. If you accidentally close a window(which is easy to do when you are juggling between windows of the same application) and don't use tmux there is no way to get back the session.
+2. If we accidentally close a window(which is easy to do when we are juggling between windows of the same application) and don't use tmux there is no way to get back the session.
 3. Easily launch projects and run the commands that setup the project and launch editor - using tmuxinator
 
-# Having to run many commands to get your project running each time is highly inefficient.
+# Having to run many commands to get our project running each time is highly inefficient.
 1. I create a tmuxinator project, set it up and then add a alias in `~/.zshrc` like `alias project=tmuxinator start project` [project ideally should be the name of the project :)]
 2. All the different panes and the commands to run in those panes will be set up in the `~/.tmuxinator/project.yml` [project ideally should be the name of the project :)]
 
 # Editor workflow
-1. I use vim not VSCode(you should use [VSCodium](https://vscodium.com/) instead) atm.
+1. I use vim not VSCode(we should use [VSCodium](https://vscodium.com/) instead) atm.
 2. Programming majorly involves editing code rather than adding code, so it becomes extremely crucial to be able to switch between files and grep the code as efficiently and quickly as possible.
 3. I use fzf to open popup within vim to search for files. The fzf popup is triggered by `<Ctrl-p>` vim key-binding. Once [we](we) have the search highlighted in the popup, pressing enter takes us to the file.
 4. To grep the codebase, ripgrep is my tool. Similar to fzf, ripgrep can be triggered by `<Ctrl-f>` vim key-binding.
@@ -49,15 +49,15 @@ Literal code editing [workflow](workflow) optimizations are left out of this blo
 1. Using a separate terminal window for git is fine, but I wanted to avoid that(less windows the better).
 2. I use lazygit for git and once I got to know about it there was no looking back, and there has to be a way to use it from within vim :wink:
 3. Lazygit needs a terminal and we can launch terminal within vim, but I did not want to open a pane/tab/split to do that.
-4. Enter [floaterm](https://github.com/voldikss/vim-floaterm) - terminal in a popup. We can open a terminal in a popup and run lazygit all in once mapping `nnoremap <silent> lg :FloatermNew --height=1.0 --width=0.99 --name=lazygit lazygit<CR>`. As you might have figured by now, launching it from vim is just pressing `lg` in normal mode.
+4. Enter [floaterm](https://github.com/voldikss/vim-floaterm) - terminal in a popup. We can open a terminal in a popup and run lazygit all in once mapping `nnoremap <silent> lg :FloatermNew --height=1.0 --width=0.99 --name=lazygit lazygit<CR>`. As we might have figured by now, launching it from vim is just pressing `lg` in normal mode.
 5. After doing the git operations in the lazygit popup, quitting the lazygit popup is just pressing `q`
-6. Lazygit is pretty cool, after pushing the code on branch you can create a PR by pressing `o`(launches a browser tab with the PR creation screen).
+6. Lazygit is pretty cool, after pushing the code on branch we can create a PR by pressing `o`(launches a browser tab with the PR creation screen).
 
 # Debugging
 1. Log debugging is the frequent thing I do, even if i don't admit as much.
 2. I buit a vim plugin to make myself more efficient log debugging javascript and typescript project.
-3. You can learn more on the github repo [here](https://github.com/RakshithNM/logdebug.vim).
+3. Learn more on the my github [here](https://github.com/RakshithNM/logdebug.vim).
 
-My Development workflow is optimized for working on a project for a long term. There is a little overhead with setting these tools up, but once we get into the rabbit hole of customising your development workflow, it is going to bring joy. It also makes us more efficient as the days pass.
+My Development workflow is optimized for working on a project for a long term. There is a little overhead with setting these tools up, but once we get into the rabbit hole of customising our development workflow, it is going to bring joy. It also makes us more efficient as the days pass.
 
 
