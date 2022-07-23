@@ -19,16 +19,16 @@ This blog post is a rundown of my development workflow. The tools, customisation
   * [Lazygit](https://github. com/jesseduffield/lazygit) - [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for git
   * [LogDebug](https://github.com/RakshithNM/logdebug.vim) - Debugging helper vim plugin
 
-We might have to run several commands get our [website](website) running, make changes and commit code. For example
+We might have to run several commands get our project running, make changes and commit code. For example
 
 * Run the frontend server
 * Run the backend server
 * The build command
 * The SSL proxy
 * The database server
-* Git commands - if we [use](use) the terminal
+* Git commands - if we use the terminal
 
-# The brute force approach is to open N terminals windows for N commands. But jumping between those windows is going to be messy as we go about doing our [job](job).
+# The brute force approach is to open N terminals windows for N commands. But jumping between those windows is going to be messy as we go about doing our job.
 1. I personal use panes in tmux to run multiple commands. Switching between panes is much better than switching between windows.
 2. If we accidentally close a window(which is easy to do when we are juggling between windows of the same application) and don't use tmux there is no way to get back the session.
 3. Easily launch projects and run the commands that setup the project and launch editor - using tmuxinator
