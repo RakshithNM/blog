@@ -15,10 +15,10 @@ This blog post is a rundown of my development workflow. The tools, customisation
 * [tmux](https://github.com/tmux/tmux/wiki) - Terminal multiplexer
 * [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 * [vim](https://www.vim.org/) - Editor
-  * [fzf](https://github.com/junegunn/fzf) - Fuzzy finder
-  * [Ripgrep](https://github.com/BurntSushi/ripgrep) - Grep
-  * [Lazygit](https://github. com/jesseduffield/lazygit) - TUI for git
-  * [LogDebug](https://github.com/RakshithNM/logdebug.vim) - Debugging helper vim plugin
+>  * [fzf](https://github.com/junegunn/fzf) - Fuzzy finder
+>  * [Ripgrep](https://github.com/BurntSushi/ripgrep) - Grep
+>  * [Lazygit](https://github.com/jesseduffield/lazygit) - TUI for git
+>  * [LogDebug](https://github.com/RakshithNM/logdebug.vim) - Debugging helper vim plugin
 
 We might have to run several commands get our project running, make changes and commit code. For example
 
