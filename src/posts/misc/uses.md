@@ -1,7 +1,7 @@
 ---
 title: Tools I use
 date: 2022-07-29
-published: false
+published: true
 tags: ['tools', 'apps', 'hardware', 'software']
 canonical_url: false
 description: "Listing out the devices, tools and hardware I use"
