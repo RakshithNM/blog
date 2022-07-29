@@ -12,8 +12,7 @@ Every computer user uses different set of tools. This post lists the tools and d
 ## Hardware
 ### Computers
 1. [MacBook Air M2](https://www.apple.com/in/macbook-air-m2/) - 2022
-2. [Mac Mini](https://support.apple.com/kb/SP782?locale=en_GB) - 2018
-3. [MacBook Pro](https://support.apple.com/kb/sp719?locale=en_GB) - mid 2015
+2. [MacBook Pro](https://support.apple.com/kb/sp719?locale=en_GB) - mid 2015
 
 ### Keyboards
 1. [ZSA Moonlander](https://www.zsa.io/moonlander/)
