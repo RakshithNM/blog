@@ -18,7 +18,7 @@ module.exports = {
     // Production URL. Used by 'alwaysProductionUrl' filter.
     // If none is provided, relative paths will be used
     // and in some cases (like sitemap.xml) that is TOTALLY NOT what you want
-    url: process.env.URL || 'https://blog.rakshithbellare.in/',
+    url: process.env.URL || 'https://blog.rakshithnettar.com/',
     // Image used as a site logo. If none is provided, site title as text
     // will be displayed as fallback.
     // If you opt for text fallback, you may want to adjust
@@ -71,7 +71,7 @@ module.exports = {
     name: 'Rakshith Bellare',
     // Your website URL. Used in the footer. Optional.
     // Doesn't have to be the same link as this site
-    url: 'https://rakshithbellare.in/',
+    url: 'https://rakshithnettar.com/',
     // Your fediverse links (e.g. Mastodon). You can provide more than one.
     // For the first account in this array your site will generate
     // .well-known/webfinger file for you so that you'll be searchable
@@ -97,7 +97,7 @@ module.exports = {
       title: 'Github',
     },
     {
-      url: 'https://rakshithbellare.in',
+      url: 'https://rakshithnettar.com',
       title: 'Website',
     },
   ],
