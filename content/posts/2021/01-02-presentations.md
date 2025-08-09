@@ -2,7 +2,7 @@
 title: Presentations in vim
 date: 2021-01-02
 published: true
-tags: ['presentation','vim', 'markdown']
+tags: ['Presentation', 'Markdown', 'Vim']
 cover_image: ./images/vim-presentation.png
 canonical_url: false
 description: "Use vim as a presentation tool"

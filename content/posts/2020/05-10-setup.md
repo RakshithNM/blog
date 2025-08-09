@@ -2,7 +2,7 @@
 title: VIM
 date: 2020-05-10
 published: true
-tags: ['Text editor','vim']
+tags: ['Vim', 'TextEditor']
 cover_image: ./images/vim.png
 canonical_url: false
 description: "Rundown of my current vim setup"
