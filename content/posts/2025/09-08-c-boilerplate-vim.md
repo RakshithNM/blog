@@ -27,6 +27,8 @@ int main() {
 ```
 4. Add the below code to your `init.lua` or whereever you see fit.
 ```lua
+-- Create an auto command when a new .c file is created and execute the command.
+-- The command reads the contents of the hello.c file into the 0th line
 vim.api.nvim_create_autocmd("BufNewFile", {
   pattern = "*.c",
   command = "0r ~/.config/nvim/templates/hello.c"
