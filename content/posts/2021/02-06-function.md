@@ -2,7 +2,7 @@
 title: Execution context in javascript
 date: 2021-02-06
 published: true
-tags: ['js','execution context']
+tags: ['Javascript', 'ExecutionContext']
 cover_image: ./images/let-const-script-scope.png
 canonical_url: false
 description: "What happens when a file is executed in js behind the scenes"

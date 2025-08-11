@@ -2,7 +2,7 @@
 title: Not using Javascript to build a site in 2022
 date: 2022-07-18
 published: true
-tags: ['frontend', 'tech stack']
+tags: ['Frontend', 'TechStack']
 canonical_url: false
 description: "How I go about building single page landing pages as efficiently as possible?"
 ---

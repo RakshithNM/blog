@@ -2,7 +2,7 @@
 title: To a clueless junior software engineer
 date: 2022-07-03
 published: true
-tags: ['career','learn']
+tags: ['Career', 'Learn']
 canonical_url: false
 description: "Things i wish i had known when starting out as a software engineer"
 ---

@@ -2,7 +2,7 @@
 title: Psuedo localization tool
 date: 2023-03-04
 published: true
-tags: ['Developer experience', 'Quality assurance', 'UI design']
+tags: ['DeveloperExperience', 'QualityAssurance', 'UIDesign']
 description: "A tool to preview layout changes due to localization"
 ---
 

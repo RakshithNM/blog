@@ -2,7 +2,7 @@
 title: Exploring the array reduce method
 date: 2021-04-04
 published: true
-tags: ['js','array method','reduce']
+tags: ['Javascript', 'ArrayMethod', 'Reduce']
 description: "Going through the array reduce function"
 ---
 

@@ -2,7 +2,7 @@
 title: Neovim logging plugin
 date: 2025-04-06
 published: true
-tags: ['Neovim','Typescript', 'Javascript', 'Debugging']
+tags: ['Neovim', 'Typescript', 'Javascript', 'Debugging']
 description: "Neovim plugin to debug typescript and javascript files using log
 statements"
 ---

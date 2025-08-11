@@ -2,7 +2,7 @@
 title: Hoisting in javascript
 date: 2021-08-17
 published: true
-tags: ['js','hoisting']
+tags: ['Javascript', 'Hoisting']
 description: "what is hoisting in javascriipt"
 ---
 

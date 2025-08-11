@@ -2,7 +2,7 @@
 title: Certificate printing with dynamic text
 date: 2021-11-07
 published: true
-tags: ['certificate','printing', 'puppeteer']
+tags: ['NodeJs', 'Puppeteer']
 canonical_url: false
 description: "Certificate generation with web technologies"
 ---

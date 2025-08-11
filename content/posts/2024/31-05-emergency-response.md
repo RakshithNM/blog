@@ -2,7 +2,7 @@
 title: Emergency responses
 date: 2024-05-31
 published: false
-tags: ['Emergency response']
+tags: ['EmergencyResponse']
 description: "Emergency response every human being should know"
 ---
 

@@ -2,7 +2,7 @@
 title: Scope/Lexical environment in javascript
 date: 2021-08-09
 published: true
-tags: ['js','scope', 'lexical environment']
+tags: ['Javascript', 'Scope', 'LexicalEnvironment']
 description: "What is scope in javascript?"
 ---
 

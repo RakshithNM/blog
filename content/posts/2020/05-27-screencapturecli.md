@@ -2,7 +2,7 @@
 title: Screencapture using CLI
 date: 2020-05-27
 published: true
-tags: ['Cli', 'ScreenCapture', 'MacOS']
+tags: ['CLI', 'ScreenCapture', 'MacOS']
 cover_image: ./images/screencapture.png
 canonical_url: false
 description: "Guide to using CLI to capture screenshots interactively"

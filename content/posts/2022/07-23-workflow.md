@@ -2,7 +2,7 @@
 title: My development workflow
 date: 2022-07-23
 published: true
-tags: ['workflow', 'editor', 'git']
+tags: ['Workflow', 'Editor', 'Git']
 canonical_url: false
 description: "Rundown of my developement workflow, how i launch my development environment, edit code and commit it"
 ---
