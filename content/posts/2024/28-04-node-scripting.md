@@ -2,7 +2,7 @@
 title: Automating HTML generation using NodeJs
 date: 2024-04-28
 published: true
-tags: ['NodeJs', 'Automation', 'HTML', 'Static site']
+tags: ['NodeJs', 'Automation', 'HTML', 'StaticSite']
 description: "Generating static sites from HTML template using NodeJs for better development experience"
 ---
 

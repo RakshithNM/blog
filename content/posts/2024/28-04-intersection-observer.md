@@ -2,7 +2,7 @@
 title: Text reveal effect
 date: 2024-04-28
 published: true
-tags: ['IntersectionObserOr']
+tags: ['IntersectionObserver']
 description: "Run down of how I built text reveal effect"
 ---
 
