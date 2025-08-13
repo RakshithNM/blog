@@ -1,3 +1,5 @@
+@use "../_mixins.scss" as mixin;
+
 * {
   box-sizing: border-box;
 }
@@ -131,13 +133,13 @@ textarea {
   padding: 0;
 }
 
-@include mobile {
+@include mixin.mobile {
   video {
     width: 100%;
   }
 }
 
-@include biggerThanMobile {
+@include mixin.biggerThanMobile {
   video {
     width: 50%;
     max-width: 480px;

@@ -1,3 +1,5 @@
+@use "../../_mixins.scss" as mixin;
+
 .mastodon-share-dialog {
   border: 2px solid var(--link-color);
   overflow: hidden;
@@ -41,7 +43,7 @@
   }
 
   .close-link {
-    @include transition(background-color);
+    @include mixin.transition(background-color);
 
     &:hover,
     &:focus {
@@ -95,7 +97,7 @@
     color: var(--background-color);
     cursor: pointer;
     line-height: 1;
-    @include transition(opacity);
+    @include mixin.transition(opacity);
 
     &[disabled],
     &[disabled]:hover,
@@ -111,7 +113,7 @@
     }
   }
 
-  @include mobile {
+  @include mixin.mobile {
     border: 0;
     position: fixed;
     flex-direction: column;

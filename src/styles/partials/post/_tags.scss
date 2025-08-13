@@ -1,3 +1,5 @@
+@use "../../_mixins.scss" as mixin;
+
 .post-tags {
   display: flex;
   flex-direction: column;
@@ -35,7 +37,7 @@
         margin-right: 0.625rem;
         margin-bottom: 0.625rem;
         border-radius: 0.5rem;
-        @include transition(background);
+        @include mixin.transition(background);
 
         &:hover,
         &:focus {

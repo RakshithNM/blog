@@ -1,3 +1,5 @@
+@use "../_mixins.scss" as mixin;
+
 html {
   font-size: var(--base-font-size);
   font-family: var(--text-font-family), var(--emoji-font-family);
@@ -116,7 +118,7 @@ blockquote {
   }
 }
 
-@include mobile {
+@include mixin.mobile {
   h1 {
     font-size: 2rem;
     margin-top: 1rem;

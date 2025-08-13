@@ -1,3 +1,5 @@
+@use "../_mixins.scss" as mixin;
+
 .feed-list {
   ul {
     list-style: none;
@@ -13,7 +15,7 @@
       svg {
         width: 3rem;
         height: 3rem;
-        @include transition(opacity);
+        @include mixin.transition(opacity);
       }
 
       &:hover svg,
@@ -42,7 +44,7 @@
   }
 }
 
-@include darkMode {
+@include mixin.darkMode {
   .feed-list svg {
     filter: saturate(70%) contrast(90%);
   }

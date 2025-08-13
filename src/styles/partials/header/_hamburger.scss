@@ -1,3 +1,6 @@
+@use "../../_mixins.scss" as mixin;
+@use "../../variables" as v;
+
 .menu-btn {
   display: none;
 }
@@ -24,7 +27,7 @@
     display: block;
     width: 2rem;
     height: 0.25rem;
-    @include transition(all);
+    @include mixin.transition(all);
   }
 
   &:before,
@@ -50,13 +53,13 @@
   }
 }
 
-@include belowMenuBreakpoint {
+@include mixin.belowMenuBreakpoint {
   .menu-btn ~ .main-nav {
     max-height: 0;
     padding: 0 1rem;
     height: 100vh;
     opacity: 0;
-    @include transition(opacity, $longTransitionTime);
+    @include mixin.transition(opacity, v.$longTransitionTime);
 
     & > * {
       display: none;
@@ -93,7 +96,7 @@
   }
 }
 
-@include aboveMenuBreakpoint {
+@include mixin.aboveMenuBreakpoint {
   .hamburger {
     display: none;
   }
