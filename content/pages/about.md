@@ -8,7 +8,8 @@ eleventyNavigation:
 
 <img src="/images/dp.jpg" alt="" class="myphoto" />
 
-I'm {{ siteConfig.author.name }}.
+Hi, I'm {{ siteConfig.author.name }}.
 
-I am a software engineer at NUITEQ. This blog is a collection of articles on
-things learnt as I tinker with stuff.
+I am a Software Engineer at NUITEQ. This blog is a collection of articles on
+things learnt as I tinker with stuff, mostly around programming and tools I use
+to get the job done.
